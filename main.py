@@ -112,10 +112,10 @@ def main():
                 classes_skipped_input = input("How many CS 1430 classes did you skip this semester? ")
                 if classes_skipped_input.isdigit():
                     classes_skipped = int(classes_skipped_input)
-                    if classes_skipped <= 48:
+                    if classes_skipped <= CS1430_MEETINGS_PER_SEMESTER:
                         break
 
-                print("Wrong input. Please enter a number of classes from 0 to 48.")
+                print(f"Wrong input. Please enter a number of classes from 0 to {CS1430_MEETINGS_PER_SEMESTER}.")
 
             skipped_cost = cost_of_skipped_classes(annual_cost, credits, classes_skipped)
             print(f"Tuition value of skipped CS 1430 classes: ${skipped_cost:.2f}")
