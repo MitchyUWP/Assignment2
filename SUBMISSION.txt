@@ -4,11 +4,11 @@ Points : 40 / 40  (from check.py; counts only when the Git and GitHub checks pas
 CS 1430 Assignment 2: The Cost of College
 GitHub user : MitchyUWP
 Repository  : https://github.com/MitchyUWP/Assignment2
-Commit      : 9ae9542704197c9e21e14da326eec70579f89f0a
-Message     : Final Project Submission all checks passed
+Commit      : cc4df90e4f74a763ee261c103b9fe2b1585c503d
+Message     : update submission.txt
 Author      : Mitchell Kress <kressm@uwplatt.edu>
-Committed   : 2026-10-25T18:25:38-05:00
-Checked     : 2026-10-25 18:26:51 Central Daylight Time
+Committed   : 2026-10-25T18:27:17-05:00
+Checked     : 2026-10-25 18:36:53 Central Daylight Time
 Python      : 3.14.7
 
 ================================================================
