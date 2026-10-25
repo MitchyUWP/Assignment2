@@ -63,7 +63,8 @@ def main():
 
         if annual_cost > 105000:
             print("For that price, college better come with a dragon.")
-        elif annual_cost >= 0:
+
+        if annual_cost >= 0:
             break
         else:
             print("Wrong input. Please enter the dollar amount for college.")
